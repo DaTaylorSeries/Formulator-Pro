@@ -1,0 +1,54 @@
+{
+  "name": "FormulatorPro",
+  "productName": "Formulator Pro",
+  "author": "Taylor Larrechea <tjlarrechea@gmail.com>",
+  "description": "A recipe program.",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "main": "JS/Primary/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "formulatorpro.app",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "uninstallDisplayName": "Formulator Pro",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "license": "License/License.txt"
+    },
+    "mac": {
+      "target": "pkg"
+    },
+    "pkg": {
+      "license": "License/License.txt",
+      "welcome": "Install Files/Intro",
+      "installLocation": "/Applications",
+      "background": {
+        "alignment": "bottomleft"
+      },
+      "allowAnywhere": true,
+      "allowCurrentUserHome": true,
+      "allowRootDirectory": true,
+      "isVersionChecked": true,
+      "isRelocatable": false,
+      "overwriteAction": "upgrade"
+    },
+    "linux": {
+      "target": "deb"
+    }
+  },
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-hot-reload": "^0.1.4",
+    "electron-reload": "^1.5.0"
+  }
+}

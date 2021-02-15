@@ -1,0 +1,180 @@
+<!-- ===== ===== ===== ===== ===== Preamble ===== ===== ===== ===== =====  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta, CSS and JS Links, and Title -->
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../../CSS/Primary/w3.css">
+  <link rel="stylesheet" href="../../../CSS/Primary/TableStyles.css" media="screen">
+  <link rel="stylesheet" href="../../../CSS/Primary/TableStylesPrint.css" media="print">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- JavaScript -->
+  <script src="../../../JS/Secondary/jQuery.js" charset="utf-8"></script>
+  <script src="../../../JS/Tertiary/Product 1/Product 1 Math.js" charset="utf-8"></script>
+  <title>Product 1 Record Sheet</title>
+</head>
+<!-- == ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====  -->
+<!-- ===== ===== ===== ===== ===== =  Body = ===== ===== ===== ===== ===== -->
+<body>
+<!-- - - - - - - - - - - - Page Content Begins Here - - - - - - - - - - - - -->
+<div class="w3-container contop" id="border">
+  <h1 id="centered" class="decrease">Product 1 Record Sheet</h1>
+</div>
+<div class="navbar noprint" id="bordert">
+  <div class="dropdown">
+    <a class="dropbtn" id="width" href="../../Primary/index.html">Home</a>
+  </div>
+  <div class="dropdown">
+    <a class="dropbtn" id="width" href="../../Secondary/Product 1/Product 1 Home.html">Product 1 Home</a>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" id="width">Scent / Flavor <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content" id="width">
+      <a href="#" class="current" id="width">Scent or Flavor</a>
+    </div>
+  </div>
+</div>
+<div id="divspace">
+  <label for="name" class="label">Name:</label>
+  <input class="input hover-color" id="name" placeholder="Name" type="text">
+  <label for="date" class="label">Date:</label>
+  <input class="input" id="date" type="date">
+  <label for="batchnumber" class="label">Batch Number:</label>
+  <input class="input hover-color" id="batchnumber" type="text" value="BATCH-">
+  <label for="batch" class="label noprint"># of Batches:</label>
+  <input class="input hover-color noprint" id="batch" type="number" value="1">
+</div>
+<div id="divspace2">
+  <label for="purity" class="label">Purity:</label>
+  <input class="input hover-color" id="purity" type="number" value="97.50">
+  <label for="desired" class="label">Desired mg/Oz:</label>
+  <input class="input hover-color" id="desired" type="number" value="300">
+  <label for="FOCID" class="label">Specialty ID:</label>
+  <select id="FOCID" class="input hover-color">
+    <option>FlurdBop</option>
+  </select>
+</div>
+<div class="w3-container container">
+  <h2 id="centered">Ingredients Callout</h2>
+  <div class="w3-responsive">
+<table class="w3-table-all w3-centered">
+<tr>
+  <th>Item</th>
+  <th>Ounces (Oz)</th>
+  <th>Grams (g)</th>
+  <th>Fluid Ounces (FOz)</th>
+  <th>Milliliters (mL)</th>
+  <th>Drops (Dps)</th>
+  <th>Completed</th>
+</tr>
+<tr>
+  <td>Ingredient 1</td>
+  <td id="INGR1Oz"></td>
+  <td id="INGR1g"></td>
+  <td id="INGR1FOz"></td>
+  <td id="INGR1mL"></td>
+  <td id="INGR1dps"></td>
+  <td><input type="checkbox"></td>
+</tr>
+<tr>
+  <td>Ingredient 2</td>
+  <td id="INGR2Oz"></td>
+  <td id="INGR2g"></td>
+  <td id="INGR2FOz"></td>
+  <td id="INGR2mL"></td>
+  <td id="INGR2dps"></td>
+  <td><input type="checkbox"></td>
+</tr>
+<tr>
+  <td>Ingredient 3</td>
+  <td id="INGR3Oz"></td>
+  <td id="INGR3g"></td>
+  <td id="INGR3FOz"></td>
+  <td id="INGR3mL"></td>
+  <td id="INGR3dps"></td>
+  <td><input type="checkbox"></td>
+</tr>
+<tr>
+  <td>Focused Ingredient</td>
+  <td id="FOCOz"></td>
+  <td id="FOCg"></td>
+  <td id="FOCFOz"></td>
+  <td id="FOCmL"></td>
+  <td id="FOCtsp"></td>
+  <td><input type="checkbox"></td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td id="TTOz"></td>
+  <td id="TTg"></td>
+  <td id="TTFOz"></td>
+  <td id="TTmL"></td>
+  <td id="TTtsp"></td>
+  <td><input type="checkbox"></td>
+</tr>
+</table>
+</div>
+</div>
+<hr class="noprint hideMe">
+<div class="ackcomp">
+  <h3 id="centered">Acknowledgement of Completion</h3>
+  <span style="display:inline-block; height: 40px;"></span>
+  Signature: __________________________________________________ <br>
+</div>
+<div class="prod1ins">
+  <hr class="noprint">
+  <h1 id="centered">Instructions</h1><br>
+  <h3 id="centered">Required Materials</h3>
+  <div class="row">
+    <div class="column">
+      <h5 id="left">Items</h5>
+      <ul>
+        <li>
+          Item
+        </li>
+      </ul>
+    </div>
+    <div class="column">
+      <h5 id="left">Items</h5>
+      <ul>
+        <li>
+          Item
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h3 id="centered">Steps for Creation</h3>
+  <div class="instructions">
+    <ol>
+     <li>
+       Personalized instructions here!
+     </li>
+    </ol>
+  </div>
+</div>
+<div class="prod1ins">
+  <hr class="noprint">
+  <h2 id="centered" class="prodcomm">Comments</h2>
+  <textarea rows="10"></textarea>
+</div>
+<footer class="toolbar toolbar-footer">
+  <div class="toolbar-actions">
+    <button class="formulatebutton" onclick="Ingredients();">
+      <span class="fa fa-flask"></span>
+    </button>
+
+    <button class="printbutton pull-right" onclick="window.print();">
+      <span class="fa fa-print"></span>
+    </button>
+  </div>
+</footer>
+<!-- - - - - - - - - - - - Page Content Ends Here - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - Renderer File  - - - - - - - - - - - - - - -->
+<script src="../../../JS/Secondary/renderer.js"></script>
+</body>
+</html>
+<!-- == ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====  -->

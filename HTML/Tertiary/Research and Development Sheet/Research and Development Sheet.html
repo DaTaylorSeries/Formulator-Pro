@@ -1,0 +1,85 @@
+<!-- ===== ===== ===== ===== ===== Preamble ===== ===== ===== ===== =====  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta, CSS and JS Links, and Title -->
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../../CSS/Primary/w3.css">
+  <link rel="stylesheet" href="../../../CSS/Primary/TableStyles.css" media="screen">
+  <link rel="stylesheet" href="../../../CSS/Primary/TableStylesPrint.css" media="print">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- JavaScript -->
+  <script src="../../../JS/Secondary/jQuery.js" charset="utf-8"></script>
+  <script src="../../../JS/Tertiary/Research and Development Script/Research and Development Script.js" charset="utf-8"></script>
+  <title>R&D Sheet</title>
+</head>
+<!-- == ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====  -->
+<!-- ===== ===== ===== ===== ===== =  Body = ===== ===== ===== ===== ===== -->
+<body>
+<!-- - - - - - - - - - - - Page Content Begins Here - - - - - - - - - - - - -->
+<div class="w3-container contop" id="border">
+  <h1 id="centered" class="decrease">R&D Sheet</h1>
+</div>
+<div class="navbar noprint" id="bordert">
+  <div class="dropdown">
+    <a class="dropbtn" id="width" href="../../Primary/index.html">Home</a>
+  </div>
+  <div class="dropdown">
+    <a class="dropbtn" id="width" href="../../Secondary/Research and Development/Research and Development Home.html">R&D Home</a>
+  </div>
+</div>
+<div id="divspace">
+  <label for="name" class="label">Name:</label>
+  <input class="input " id="name" placeholder="Name" type="text">
+  <label for="date" class="label">Date:</label>
+  <input class="input" id="date" type="date">
+  <label for="batchnumber" class="label">Product:</label>
+  <input class="input " id="batchnumber" type="text" placeholder="Product Name">
+</div>
+<div class="w3-container container">
+  <h2 id="centered">Ingredients Callout</h2>
+  <div class="w3-responsive">
+    <table id="table" class="w3-table-all w3-centered rdtable">
+      <thead>
+        <th id="item">Item</th>
+        <th>Ounces (Oz)</th>
+        <th>Grams (g)</th>
+        <th>Fluid Ounces (FOz)</th>
+        <th>Milliliters (mL)</th>
+        <th>Drops (Dps)</th>
+        <th>Teaspoons (tsp)</th>
+        <th>Completed</th>
+      </thead>
+    </table>
+  </div>
+</div>
+<hr class="noprint">
+<div class="ackcomp">
+  <h3 id="centered">Acknowledgement of Completion</h3>
+  <span style="display:inline-block; height: 40px;"></span>
+  <p>Signature: __________________________________________________ </p> <br>
+</div>
+<footer class="toolbar toolbar-footer">
+  <div class="toolbar-actions">
+    <button class="formulatebutton" onclick="AddRow();">
+      <span class="fa fa-plus"></span>
+    </button>
+    <button class="formulatebutton" onclick="DeleteRow();">
+      <span class="fa fa-minus"></span>
+    </button>
+
+    <button class="printbutton pull-right" onclick="window.print();">
+      <span class="fa fa-print"></span>
+    </button>
+  </div>
+</footer>
+<!-- - - - - - - - - - - - Page Content Ends Here - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - Renderer File  - - - - - - - - - - - - - - -->
+<script src="../../../JS/Secondary/renderer.js"></script>
+</body>
+</html>
+<!-- == ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====  -->

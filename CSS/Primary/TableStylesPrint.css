@@ -1,0 +1,191 @@
+/* Do not print */
+.noprint {
+  visibility: hidden;
+}
+
+html, body {
+  border: 1px solid white;
+  height: 99%;
+  page-break-after: avoid;
+  page-break-before: avoid;
+}
+
+/* Product instructions formatting */
+
+/* Product 1 Instructions */
+.prod1ins {
+  position: relative; top: 450px;
+}
+
+/* Product 1 Comments */
+.prodcomm {
+  position: relative; top: 125px;
+}
+
+/* HSG Instructions */
+.hsgins {
+  position: relative; top: 450px;
+}
+
+/* HSG Comments */
+.hsgcomm {
+  position: relative; top: 125px;
+}
+
+/* Standard Hand Sanitizer Instructions */
+.handsanitizerins {
+  position: relative; top: 495px;
+}
+
+/* Standard Hand Sanitizer Comments */
+.handsanitizercomm {
+  position: relative; top: 175px;
+}
+
+/* Template Instructions */
+.tempins {
+  position: relative; top: 350px;
+}
+
+/* Template Comments */
+.tempcomm {
+  position: relative; top: 400px;
+}
+
+/* Centered text ID */
+#centered {
+  text-align: center; font-family: "American Typewriter";
+}
+
+/* Navbar container */
+.navbar {
+  height: 5px;
+}
+
+/* Input and label */
+input, label {
+display: inline-flex;
+border-color: transparent; font-size: x-small;
+}
+
+/* Label 1 Style */
+.label{
+  font-weight: bold;
+}
+
+/* Input Style */
+.input{
+  width: 125px;
+}
+
+/* Select Styling */
+select {
+  border-color: transparent; font-size: x-small;
+  appearance: none; -webkit-appearance: none;
+}
+
+/* Container for Inputs 1 */
+#divspace {
+  padding: 10px; width: 100%;
+}
+
+/* Container for Inputs 2 */
+#divspace2 {
+  padding: 10px; width: 100%;
+}
+
+/* W3 Imports */
+.w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
+.w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}.w3-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.w3-table-all tr:nth-child(odd){background-color:#fff}.w3-table-all tr:nth-child(even){background-color:#f1f1f1}
+.w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{background-color:#ccc}.w3-centered tr th,.w3-centered tr td{text-align:center}
+.w3-table td,.w3-table th,.w3-table-all td,.w3-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.w3-table th:first-child,.w3-table td:first-child,.w3-table-all th:first-child,.w3-table-all td:first-child{padding-left:16px}
+.w3-centered tr th,.w3-centered tr td{text-align:center}
+
+/* Table Cells Resizing */
+td {
+  font-size: xx-small; 
+}
+th {
+  font-size: xx-small;
+}
+.rdtable {
+  table-layout: fixed; width: 100%;
+}
+.TableInput {
+  width: 75%;
+}
+
+/* Button form */
+#buttonForm {
+  height: 0px;
+}
+
+hr {
+  margin-top: -20px;
+}
+
+/* Acknowledgement of Completion Section */
+.ackcomp {
+  padding-top: 25px; padding-bottom: px;
+  padding-left: 20px; padding-right: 20px;
+  font-family: "American Typewriter";
+  font-size: small;
+}
+
+/* Decrease Size of Font */
+.decrease {
+  font-size: 15pt;
+}
+
+/* Header Re-Size */
+h3 {
+  font-size: medium;
+}
+h2 {
+  font-size: 15pt;
+}
+h1 {
+  font-size: 15pt;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left; width: 49%;
+  padding: 10px; font-size: x-small;
+  margin-left: 0.5%; margin-right: 0.5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Instructions Box */
+.instructions {
+  margin-left: 2.5%; margin-right: 2.5%;
+  font-size: x-small;
+}
+
+/* Unordered List Title */
+#left {
+  text-align: left; padding-left: 40px;
+}
+
+/* Text Area Style */
+textarea {
+  width: 90%; margin-left: 5%;
+  margin-right: 5%;
+}
+
+.divspace3 {
+  visibility: hidden;
+  height: 0px;
+}
+
+.toolbar {
+  visibility: hidden;
+}
